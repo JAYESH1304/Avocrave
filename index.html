@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avocrave — Not Just Food, It's a Crave</title>
+<meta name="description" content="Avocrave: fresh, flavourful, unique avocado creations. Real ingredients, bold flavours, made with love.">
+
+<!-- Fonts: Anton (poster headline), Caveat (hand-lettered accent), Inter (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <span>EST. 2024</span>
+  <span class="topbar-tagline">Fresh. Flavourful. Unique.</span>
+  <span>Not Just Food, It's a Crave</span>
+</div>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <a href="#top" class="logo">
+    <span class="logo-mark" aria-hidden="true">
+      <!-- Simple avocado mark, swap for the real logo file when ready -->
+      <img src="assets/img/logo.png" alt="" class="logo-img" onerror="this.style.display='none'">
+    </span>
+    <span class="logo-word">Avocrave<span class="logo-dot">.</span></span>
+  </a>
+
+  <nav class="main-nav" id="main-nav">
+    <a href="#about">About</a>
+    <a href="#legacy">Legacy</a>
+    <a href="#team">Team</a>
+    <a href="#menu">Menu</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a class="btn btn-order" href="#contact">Order now</a>
+
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Real ingredients. Bold flavours. Made with love.</p>
+      <h1 class="hero-title">
+        Not just food,<br>
+        <span class="hero-title-accent">it's a crave.</span>
+      </h1>
+      <p class="hero-sub">
+        We take the humble avocado and turn it into three crave-worthy favourites —
+        creamy, bold, and impossible to put down.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the craves</a>
+        <a href="https://instagram.com/avocraveeee" target="_blank" rel="noopener" class="btn btn-ghost">@avocraveeee</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-photo-frame">
+        <!-- Replace with a real product photo -->
+        <img src="assets/photos/smoothie.png" alt="Avocrave signature avo smoothie" onerror="this.parentElement.classList.add('img-fallback')">
+      </div>
+      <p class="hero-caption">Avo Kit Kat Bliss Smoothie — our No. 1 crave</p>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE STRIP ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Real ingredients</span><span>·</span>
+      <span>Bold flavours</span><span>·</span>
+      <span>Made with love</span><span>·</span>
+      <span>Real ingredients</span><span>·</span>
+      <span>Bold flavours</span><span>·</span>
+      <span>Made with love</span><span>·</span>
+      <span>Real ingredients</span><span>·</span>
+      <span>Bold flavours</span><span>·</span>
+      <span>Made with love</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="section-grid">
+      <div class="section-head">
+        <p class="section-kicker">01 — About</p>
+        <h2>Good food should<br>make you feel good.</h2>
+      </div>
+      <div class="section-body">
+        <!--
+          ABOUT US CONTENT
+          ------------------------------------------------
+          Replace or extend the paragraph below with your own copy.
+          A couple of starter lines have been drafted for you —
+          keep, edit, or delete them freely.
+        -->
+        <p>
+          We're AvoCrave — where avocado meets the irresistible world of street food.
+        </p>
+        <p>
+          AvoCrave was started by a group of S.Y. BMS students as a college project, with a simple idea: to break the boring perception of avocado and turn it into something exciting, flavourful, and fun.
+        </p>
+        <!-- TODO: drop in your own About Us content here -->
+        <p class="content-placeholder">
+          We wanted to take avocado beyond its usual image and give it a creative street-food twist. Our menu brings together familiar favourites with the creamy goodness of avocado, creating unique combinations that are both delicious and exciting.
+          From our Avocado Momos, Avocado Sev Puri, and Avocado KitKat Smoothie, every product is designed to give you a completely different way to experience avocado.
+        </p>
+
+        <ul class="about-points">
+          <li><span>Fresh ingredients</span></li>
+          <li><span>Bold flavours</span></li>
+          <li><span>Pure joy</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEGACY ============ -->
+  <section class="section legacy" id="legacy">
+    <div class="section-grid section-grid-reverse">
+      <div class="section-head">
+        <p class="section-kicker">02 — Legacy</p>
+        <h2>What we're<br>about.</h2>
+      </div>
+      <div class="section-body">
+        <!--
+          LEGACY CONTENT
+          ------------------------------------------------
+          Edit freely — this is your "what we're about" + upcoming event content.
+        -->
+        <p class="legacy-highlight">Avocado + Street Food + Creativity = AvoCrave</p>
+        <p>
+          We're all about experimenting with flavours and turning an everyday
+          ingredient into something you'll actually crave. Whether you're a
+          street-food lover or someone curious to try avocado in a whole new
+          way, there's something waiting for you.
+        </p>
+
+        <div class="event-card">
+          <p class="event-kicker">Find us on</p>
+          <p class="event-date">26 September</p>
+          <div class="event-details">
+            <p>Bhavan's College, Andheri West</p>
+            <p>Palanji Sadan — Yellow Building, Foyer</p>
+            <p>Munshi Nagar, Andheri West, Mumbai, Maharashtra 400058</p>
+          </div>
+          <p class="event-cta">
+            Come grab a bite, try our creations, and experience avocado magic
+            like never before.
+          </p>
+        </div>
+
+        <p class="legacy-tagline">AvoCrave — Not just food, it's a crave.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section class="section team" id="team">
+    <div class="section-head section-head-center">
+      <p class="section-kicker">03 — The Team</p>
+      <h2>The people<br>behind the crave.</h2>
+    </div>
+
+    <!--
+      TEAM CONTENT
+      ------------------------------------------------
+      Names scroll in a belt, same mechanic as the tagline strip above.
+      Edit the names inside .team-marquee-track — keep the list duplicated
+      once (as it is below) so the loop stays seamless.
+    -->
+    <div class="team-marquee" aria-label="Team members">
+      <div class="team-marquee-track">
+        <span>Meghana Sonawane</span><span>·</span>
+        <span>Jignesh Gawde</span><span>·</span>
+        <span>Manas Surve</span><span>·</span>
+        <span>Urjita Raut</span><span>·</span>
+        <span>Nandan Sharma</span><span>·</span>
+        <span>Kshitij Thakre</span><span>·</span>
+        <span>Likita Gujaran</span><span>·</span>
+        <span>Palak Poojary</span><span>·</span>
+        <span>Ayush Bhujbale</span><span>·</span>
+        <span>Shankanil Nage</span><span>·</span>
+        <span>Aayush Niwate</span><span>·</span>
+        <span>Meghana Sonawane</span><span>·</span>
+        <span>Jignesh Gawde</span><span>·</span>
+        <span>Manas Surve</span><span>·</span>
+        <span>Urjita Raut</span><span>·</span>
+        <span>Nandan Sharma</span><span>·</span>
+        <span>Kshitij Thakre</span><span>·</span>
+        <span>Likita Gujaran</span><span>·</span>
+        <span>Palak Poojary</span><span>·</span>
+        <span>Ayush Bhujbale</span><span>·</span>
+        <span>Shankanil Nage</span><span>·</span>
+        <span>Aayush Niwate</span><span>·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU / THE THREE CRAVES ============ -->
+  <section class="section menu" id="menu">
+    <div class="section-head section-head-center">
+      <p class="section-kicker">04 — The Menu</p>
+      <h2>Three craves.<br>One destination.</h2>
+    </div>
+
+    <div class="menu-grid">
+
+      <!-- Item 1 -->
+      <article class="menu-card">
+        <div class="menu-card-media">
+          <img src="assets/photos/smoothie.png" alt="Avo Kit Kat Bliss Smoothie" onerror="this.parentElement.classList.add('img-fallback')">
+        </div>
+        <div class="menu-card-body">
+          <span class="menu-num">1</span>
+          <h3>Avo Kit Kat<br>Bliss Smoothie</h3>
+          <p>Creamy avo. Crunchy Kit Kat. A match made in heaven — indulgent, refreshing,
+            and absolutely blissful.</p>
+          <ul class="tick-list">
+            <li>Creamy</li>
+            <li>Chocolatey</li>
+            <li>Crave-worthy</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Item 2 -->
+      <article class="menu-card">
+        <div class="menu-card-media">
+          <img src="assets/photos/sev_puri.png" alt="Avo Bae Shev Puri" onerror="this.parentElement.classList.add('img-fallback')">
+        </div>
+        <div class="menu-card-body">
+          <span class="menu-num">2</span>
+          <h3>Avo Bae Shev Puri</h3>
+          <p>Crispy. Creamy. Addictive. Classic shev puri gets a creamy, dreamy upgrade
+            that'll steal your heart (and your taste buds).</p>
+          <ul class="tick-list">
+            <li>Fresh ingredients</li>
+            <li>Bold flavours</li>
+            <li>Pure joy</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Item 3 -->
+      <article class="menu-card">
+        <div class="menu-card-media">
+          <img src="assets/photos/avo_momo.png" alt="Creamy Guaca Momo" onerror="this.parentElement.classList.add('img-fallback')">
+        </div>
+        <div class="menu-card-body">
+          <span class="menu-num">3</span>
+          <h3>Creamy Guaca Momo</h3>
+          <p>Dip. Dunk. Obsess. Silky smooth guacamole meets juicy momos for the ultimate
+            comfort food combo.</p>
+          <ul class="tick-list">
+            <li>Creamy avocado</li>
+            <li>Juicy momos</li>
+            <li>Total happiness</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS / FEEDBACK ============ -->
+  <section class="section reviews" id="reviews">
+    <div class="section-head section-head-center">
+      <p class="section-kicker">05 — Reviews</p>
+      <h2>Tell us what<br>you crave.</h2>
+      <p class="section-lede">
+        Had an Avocrave order? We'd love to hear about it — good, bad, or somewhere in
+        between. It genuinely helps us make the next batch better.
+      </p>
+    </div>
+
+    <div class="review-panel">
+      <!--
+        GOOGLE FORM EMBED
+        ------------------------------------------------
+        Replace YOUR_GOOGLE_FORM_EMBED_URL below with your form's embed link:
+        Google Forms → Send → embed (<>) icon → copy the src URL only.
+        It looks like:
+        https://docs.google.com/forms/d/e/XXXXXXXX/viewform?embedded=true
+      -->
+      <iframe
+        class="review-form"
+        src="https://forms.gle/F6CHWBEDJWGixTBL9"
+        title="Avocrave feedback form"
+        loading="lazy">
+        Loading feedback form…
+      </iframe>
+
+      <p class="review-fallback">
+        Form not loading?
+        <a href="https://forms.gle/F6CHWBEDJWGixTBL9" target="_blank" rel="noopener">
+          Open it in a new tab
+        </a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="contact-panel">
+      <div class="contact-copy">
+        <p class="section-kicker section-kicker-light">06 — Contact</p>
+        <h2>Order now & let your<br>cravings meet their match.</h2>
+        <p class="section-lede section-lede-light">
+          Order online, message us on Instagram, or give us a call — however you'd
+          rather crave.
+        </p>
+      </div>
+
+      <div class="contact-details">
+        <a class="contact-row" href="tel:+919834411593">
+          <span class="contact-label">Call</span>
+          <span class="contact-value">+91 98344 11593</span>
+        </a>
+        <a class="contact-row" href="https://instagram.com/avocraveeee" target="_blank" rel="noopener">
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@avocraveeee</span>
+        </a>
+        <a class="contact-row" href="mailto:avocraveeee@gmail.com">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">avocraveeee@gmail.com</span>
+        </a>
+        <div class="contact-row contact-row-static">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Bhavan's College, Munshi Nagar, Andheri West, Mumbai</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <span class="logo-word footer-logo">Avocrave<span class="logo-dot">.</span></span>
+    <p>Real ingredients. Bold flavours. Made with love.</p>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; <span id="year"></span> Avocrave. Made with avo. Made for you.</span>
+    <a href="https://instagram.com/avocraveeee" target="_blank" rel="noopener">@avocraveeee</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
